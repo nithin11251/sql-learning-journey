@@ -1,0 +1,11 @@
+-- CREATE
+CREATE TABLE emp_copy AS SELECT * FROM emp;
+
+-- ALTER
+ALTER TABLE emp_copy ADD bonus NUMBER;
+
+-- DROP
+DROP TABLE emp_copy;
+
+-- TRUNCATE
+TRUNCATE TABLE emp;
